@@ -1,0 +1,9 @@
+- faire pour inversion des label (pour le moment que omissions pris en compte : modelEditionOmissionEvt.sh
+- tester si R/eps pose un soucis
+- nettoyer pour ne produire que les fichiers réutilisés ensuite
+
+
+
+Dans doc : 
+
+attention : prétraitement du modèle de tâches pour supprimer les transitions « sans sens » car sinon elles vont permettre des omissions, des éditions… non valides par rapport au modèle de tâches 

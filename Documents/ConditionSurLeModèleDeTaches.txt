@@ -1,0 +1,3 @@
+L’automate de modèle de tâches doit :
+- ne pas avoir de transitions eps/eps
+- avoir des transitions de la forme : label_input/label_output avec label_input = label_output

@@ -1,0 +1,62 @@
+label.syms
+Modèle d'Edition avec les omission d'Evt
+0	0	eps	R	1
+0	0	eps	Root	1
+0	0	eps	N2	1
+0	0	eps	N11	1
+0	0	eps	N1	1
+0	0	eps	N12	1
+0	0	eps	N13	1
+0	0	Root	Root	1
+0	0	N11	N11	1
+0	0	N12	N12	1
+0	0	N13	N13	1
+0	0	N1	N1	1
+0	0	N2	N2	1
+0	0	R	R	1
+0
+MdT
+2	0	N11	N11
+2	2	N1	N1
+2	2	N2	N2
+2	2	R	R
+2
+0	1	N12	N12
+1	2	N13	N13
+Model edition du MdT
+0	0	eps	R	1
+0	0	eps	N2	1
+0	1	eps	N11	1
+0	0	eps	N1	1
+0	1	N11	N11	1
+0	0	N1	N1	1
+0	0	N2	N2	1
+0	0	R	R	1
+0
+1	2	eps	N12	1
+1	2	N12	N12	1
+2	0	eps	N13	1
+2	0	N13	N13	1
+Resultat
+0	2	N11	N11	1
+0	0	eps	N1	1
+0	1	eps	N11	1
+0	0	eps	N2	1
+0	0	eps	R	1
+1	3	eps	N12	1
+2	5	N12	N12	1
+2	4	eps	N12	1
+3	0	eps	N13	1
+4	6	eps	N13	1
+5	7	eps	N13	1
+6	6	eps	N1	1
+6	2	eps	N11	1
+6	6	eps	N2	1
+6	6	eps	R	1
+7	7	eps	N1	1
+7	8	eps	N11	1
+7	7	eps	N2	1
+7	7	eps	R	1
+7
+8	5	eps	N12	1
+Fin du processus de création du modèle d'édition (étape 4)

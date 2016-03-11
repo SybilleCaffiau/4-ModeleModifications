@@ -1,0 +1,141 @@
+wificampus-029122:Traitement sybillecaffiau$ sh modelEditionOmissionEvt.sh 
+Début du processus de création du modèle des possibles (étape 4)
+fichier de symboles (.syms) ? 
+label.syms
+Modèle d'Edition avec les omission d'Evt
+0	0	eps	2	1
+0	0	eps	R	1
+0	0	eps	1.3	1
+0	0	eps	Root	1
+0	0	eps	1.2	1
+0	0	eps	1	1
+0	0	eps	1.1	1
+0	0	R	R	1
+0	0	Root	Root	1
+0	0	1	1	1
+0	0	1.1	1.1	1
+0	0	1.2	1.2	1
+0	0	1.3	1.3	1
+0	0	2	2	1
+0
+automate du modèle de tâches (.fst) ? 
+automatePlat.fst
+après rmepsilon
+0	1	Root	Root
+0	0	1	1
+0	0	2	2
+0
+1	1	Root	Root
+1	0	1	1
+1	2	1.1	1.1
+1	0	2	2
+2	3	1.2	1.2
+3	1	1.3	1.3
+après determize
+0	1	Root	Root
+0	0	1	1
+0	0	2	2
+0
+1	1	Root	Root
+1	0	1	1
+1	2	1.1	1.1
+1	0	2	2
+2	3	1.2	1.2
+3	1	1.3	1.3
+après minimize
+0	1	Root	Root
+0	0	1	1
+0	0	2	2
+0
+1	1	Root	Root
+1	0	1	1
+1	2	1.1	1.1
+1	0	2	2
+2	3	1.2	1.2
+3	1	1.3	1.3
+Model edition du MdT
+0	0	eps	2	1
+0	1	eps	Root	1
+0	0	eps	1	1
+0	1	Root	Root	1
+0	0	1	1	1
+0	0	2	2	1
+0
+1	0	eps	2	1
+1	1	eps	Root	1
+1	0	eps	1	1
+1	2	eps	1.1	1
+1	1	Root	Root	1
+1	0	1	1	1
+1	2	1.1	1.1	1
+1	0	2	2	1
+2	3	eps	1.2	1
+2	3	1.2	1.2	1
+3	1	eps	1.3	1
+3	1	1.3	1.3	1
+fichier de traces/scenario (.txt) ? 
+Scenario.txt
+Resultat
+0	0	eps	1	1
+0	1	eps	Root	1
+0	0	eps	2	1
+1	3	1.1	1.1	2.0999999
+1	2	eps	1.1	1
+1	0	eps	1	1
+1	1	eps	Root	1
+1	0	eps	2	1
+2	4	eps	1.2	1
+3	6	1.2	1.2	2.20000005
+3	5	eps	1.2	1
+4	1	eps	1.3	1
+5	7	eps	1.3	1
+6	8	eps	1.3	1
+7	3	eps	1.1	1
+7	9	eps	1	1
+7	7	eps	Root	1
+7	9	eps	2	1
+8	11	eps	1.1	1
+8	10	eps	1	1
+8	8	eps	Root	1
+8	10	eps	2	1
+9	9	eps	1	1
+9	7	eps	Root	1
+9	9	eps	2	1
+10	10	eps	1	1
+10	8	eps	Root	1
+10	10	eps	2	1
+10
+11	6	eps	1.2	1
+Fin du processus de création du modèle des chemins possibles par omissions (étape 4) -L'automate se nomme Res.fst
+wificampus-029122:Traitement sybillecaffiau$ fstprint --isymbols=label.syms --osymbols=label.syms Res.fst
+0	0	eps	1	1
+0	1	eps	Root	1
+0	0	eps	2	1
+1	3	1.1	1.1	2.0999999
+1	2	eps	1.1	1
+1	0	eps	1	1
+1	1	eps	Root	1
+1	0	eps	2	1
+2	4	eps	1.2	1
+3	6	1.2	1.2	2.20000005
+3	5	eps	1.2	1
+4	1	eps	1.3	1
+5	7	eps	1.3	1
+6	8	eps	1.3	1
+7	3	eps	1.1	1
+7	9	eps	1	1
+7	7	eps	Root	1
+7	9	eps	2	1
+8	11	eps	1.1	1
+8	10	eps	1	1
+8	8	eps	Root	1
+8	10	eps	2	1
+9	9	eps	1	1
+9	7	eps	Root	1
+9	9	eps	2	1
+10	10	eps	1	1
+10	8	eps	Root	1
+10	10	eps	2	1
+10
+11	6	eps	1.2	1
+wificampus-029122:Traitement sybillecaffiau$ 
