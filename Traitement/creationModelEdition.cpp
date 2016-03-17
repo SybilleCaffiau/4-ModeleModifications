@@ -21,7 +21,7 @@ int main(int argc, char *argv[]){
 	while (symbol!=""){
 		
 		//cout << "symbol" << symbol << "fin symbol" << endl;
-		if(symbol!="eps"){
+		if((symbol!="eps") &&(symbol !="R")){
 		
 		leModeleEdition << "0 0 " <<symbol<<" " <<symbol<<" 1 "<< endl;
 		leModeleEdition << "0 0 eps " <<symbol<<" 1 "<< endl;
